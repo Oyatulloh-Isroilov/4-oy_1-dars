@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>integer15</title>
+</head>
+
+<body>
+
+    <script>
+
+        let son = prompt("sonni kirting");
+
+        son = son;
+        let birlar = Math.floor(son % 10);
+        let onlar = Math.floor((son / 10) % 10);
+        let yuzlar = Math.floor(son / 100);
+
+        let res = (onlar * 100 + yuzlar * 10 + birlar * 1);
+
+        document.write(res);
+    </script>
+
+</body>
+
+</html>
